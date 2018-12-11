@@ -1,2 +1,9 @@
-1. Soundboard
-2. Muis besturen ahv bluetooth/usb
+1. Soundboard:
+* Standaard sounds
+* Sounds opnemen met microfoon
+* Sound recorden van je gsm en dat als geluidsfragment gebruiken
+* Instellen als beltoon
+* Sounds als favoriet
+* Random sound button
+
+2. Muis besturen ahv bluetooth/usb (AFGEKEURT)
