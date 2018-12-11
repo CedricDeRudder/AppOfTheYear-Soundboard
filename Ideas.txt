@@ -5,5 +5,8 @@
 * Instellen als beltoon
 * Sounds als favoriet
 * Random sound button
+* Achievements
+* App exclusive volume
+* Verschillende layout modes
 
 2. Muis besturen ahv bluetooth/usb (AFGEKEURT)
