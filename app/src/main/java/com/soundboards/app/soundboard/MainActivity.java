@@ -62,10 +62,11 @@ super.onCreate(savedInstanceState);
         TabLayout tabLayout = (TabLayout)findViewById(com.soundboards.app.soundboard.R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("category"));
         tabLayout.addTab(tabLayout.newTab().setText("category2"));
-        tabLayout.addTab(tabLayout.newTab().setIcon(com.soundboards.app.soundboard.R.drawable.ic_settings_white_24dp));
         tabLayout.addTab(tabLayout.newTab().setText("Record"));
+        tabLayout.addTab(tabLayout.newTab().setIcon(com.soundboards.app.soundboard.R.drawable.ic_settings_white_24dp));
 
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+        tabLayout.setTabMode(tabLayout.MODE_SCROLLABLE);
+        //tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
@@ -101,7 +102,7 @@ super.onCreate(savedInstanceState);
 
         if (adCount == 5) {
             adCount = 0;
-            // Play add and return
+            // Play ad and return
         } else {
             adCount++;
         }
