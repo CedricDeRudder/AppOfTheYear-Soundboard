@@ -38,4 +38,7 @@
     <string name="string_suggest_sound">Voorstel Sound</string>
     <string name="string_thanks">bedankt!</string>
     <string name="string_random">Random sound</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

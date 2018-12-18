@@ -13,7 +13,7 @@ import java.util.Random;
 
 import com.google.android.gms.ads.AdView;
 
-public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener, Tab2.OnFragmentInteractionListener, Tab3.OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener, Tab2.OnFragmentInteractionListener, Tab3.OnFragmentInteractionListener, Tab4.OnFragmentInteractionListener {
 
     private MediaPlayer mediaPlayer = null;
     private AdView mAdView;
@@ -56,13 +56,15 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+super.onCreate(savedInstanceState);
         setContentView(com.soundboards.app.soundboard.R.layout.activity_main);
 
         TabLayout tabLayout = (TabLayout)findViewById(com.soundboards.app.soundboard.R.id.tablayout);
         tabLayout.addTab(tabLayout.newTab().setText("category"));
         tabLayout.addTab(tabLayout.newTab().setText("category2"));
         tabLayout.addTab(tabLayout.newTab().setIcon(com.soundboards.app.soundboard.R.drawable.ic_settings_white_24dp));
+        tabLayout.addTab(tabLayout.newTab().setText("Record"));
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
