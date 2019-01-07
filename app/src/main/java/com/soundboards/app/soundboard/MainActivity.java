@@ -19,39 +19,55 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
     private AdView mAdView;
     private int adCount;
 
-    private int[] all_sounds = {
-            com.soundboards.app.soundboard.R.raw.bases,
-            com.soundboards.app.soundboard.R.raw.benghazi,
-            com.soundboards.app.soundboard.R.raw.bill_cosby,
-            com.soundboards.app.soundboard.R.raw.bird_up,
-            com.soundboards.app.soundboard.R.raw.cameras,
-            com.soundboards.app.soundboard.R.raw.cherokee_beer,
-            com.soundboards.app.soundboard.R.raw.hoky_poky,
-            com.soundboards.app.soundboard.R.raw.i_am_the_octopus,
-            com.soundboards.app.soundboard.R.raw.legalize_ranch,
-            com.soundboards.app.soundboard.R.raw.lsd,
-            com.soundboards.app.soundboard.R.raw.mein_kampf,
-            com.soundboards.app.soundboard.R.raw.mom_and_dad,
-            com.soundboards.app.soundboard.R.raw.monkeys,
-            com.soundboards.app.soundboard.R.raw.narcoleptic,
-            com.soundboards.app.soundboard.R.raw.octomom,
-            com.soundboards.app.soundboard.R.raw.on_wet,
-            com.soundboards.app.soundboard.R.raw.oriental_background,
-            com.soundboards.app.soundboard.R.raw.ranch_it_up,
-            com.soundboards.app.soundboard.R.raw.societies_lies,
-            com.soundboards.app.soundboard.R.raw.sup_mello,
-            com.soundboards.app.soundboard.R.raw.taxes,
-            com.soundboards.app.soundboard.R.raw.vacuum,
-            com.soundboards.app.soundboard.R.raw.vert_horiz_mull,
-            com.soundboards.app.soundboard.R.raw.john_wayne,
-            com.soundboards.app.soundboard.R.raw.arabic,
-            com.soundboards.app.soundboard.R.raw.l_ron_hubbard,
-            com.soundboards.app.soundboard.R.raw.pizza_ball,
-            com.soundboards.app.soundboard.R.raw.schindlers_list,
-            com.soundboards.app.soundboard.R.raw.well_be_right_back,
-            com.soundboards.app.soundboard.R.raw.yahboobay_short,
-            com.soundboards.app.soundboard.R.raw.yahboobay_long,
-            com.soundboards.app.soundboard.R.raw.yes_guy
+    private int[] all_sounds = new int[]{
+
+            //weapons, ...
+            R.raw.o_bouncing_on_tires,
+            R.raw.o_bus,
+            R.raw.o_chest_opened,
+            R.raw.o_chest_unopened,
+            R.raw.o_chug_jug,
+            R.raw.o_close_glider,
+            R.raw.o_goal,
+            R.raw.o_incoming_storm,
+            R.raw.o_inside_the_storm,
+            R.raw.o_jump_out_the_bus,
+            R.raw.o_launchpad,
+            R.raw.o_open_glider,
+            R.raw.o_out_of_the_storm,
+            R.raw.o_theme_song,
+
+            R.raw.w_assault_rifle_burst,
+            R.raw.w_electrical_trap,
+            R.raw.w_grenade,
+            R.raw.w_grenade_launcher,
+            R.raw.w_m16,
+            R.raw.w_ocket_launcher,
+            R.raw.w_pickaxe_attack,
+            R.raw.w_picking_guns,
+            R.raw.w_pistol,
+            R.raw.w_pumpkin_rocket_launcher,
+            R.raw.w_scar,
+            R.raw.w_shotgun,
+            R.raw.w_silenced_smg,
+            R.raw.w_smoke_grenade,
+            R.raw.w_sniper_shot,
+            R.raw.w_switch_weapons,
+
+            //dance
+            R.raw.d_best_mates,
+            R.raw.d_dance_move_2,
+            R.raw.d_dance_moves_3,
+            R.raw.d_dance_moves,
+            R.raw.d_electro_shuffle,
+            R.raw.d_flapper,
+            R.raw.d_floss,
+            R.raw.d_fresh,
+            R.raw.d_ride_the_pony,
+            R.raw.d_slow_clap,
+            R.raw.d_take_the_l,
+            R.raw.d_the_robot,
+            R.raw.d_the_worm
     };
 
     @Override
@@ -60,10 +76,10 @@ super.onCreate(savedInstanceState);
         setContentView(com.soundboards.app.soundboard.R.layout.activity_main);
 
         TabLayout tabLayout = (TabLayout)findViewById(com.soundboards.app.soundboard.R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("category"));
-        tabLayout.addTab(tabLayout.newTab().setText("category2"));
+        tabLayout.addTab(tabLayout.newTab().setText("Positief"));
+        tabLayout.addTab(tabLayout.newTab().setText("Dance"));
         tabLayout.addTab(tabLayout.newTab().setIcon(com.soundboards.app.soundboard.R.drawable.ic_settings_white_24dp));
-        tabLayout.addTab(tabLayout.newTab().setText("Record"));
+        tabLayout.addTab(tabLayout.newTab().setText("New"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
@@ -113,134 +129,196 @@ super.onCreate(savedInstanceState);
         }
 
         switch (view.getId()) {
-            case com.soundboards.app.soundboard.R.id.button_benghazi:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.benghazi);
+                //weapons, ...
+            case R.id.button_bouncing_on_tires:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_bouncing_on_tires);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_bird_up:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.bird_up);
+
+            case R.id.button_bus:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_bus);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_cherokee_chicks:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.cherokee_beer);
+
+            case R.id.button_chest_opened:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_chest_opened);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_legalize_ranch:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.legalize_ranch);
+
+            case R.id.button_chest_unopened:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_chest_unopened);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_ranch_it_up:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.ranch_it_up);
+
+            case R.id.button_chug_jug:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_chug_jug);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_bases:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.bases);
+
+            case R.id.button_close_glider:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_close_glider);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_bill_cosby:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.bill_cosby);
+
+            case R.id.button_goal:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_goal);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_cameras:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.cameras);
+
+            case R.id.button_incoming_storm:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_incoming_storm);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_hoky_poky:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.hoky_poky);
+
+            case R.id.button_inside_the_storm:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_inside_the_storm);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_octopus:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.i_am_the_octopus);
+
+            case R.id.button_jump_out_the_bus:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_jump_out_the_bus);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_lsd:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.lsd);
+
+            case R.id.button_launchpad:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_launchpad);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_mein_kampf:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.mein_kampf);
+
+            case R.id.button_open_glider:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_open_glider);
+                mediaPlayer.start();
+
+            case R.id.button_out_of_the_storm:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_out_of_the_storm);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_mom_and_dad:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.mom_and_dad);
+
+            case R.id.button_theme_song:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.o_theme_song);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_monkeys:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.monkeys);
+
+
+            case R.id.button_assault_rifle_burst:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_assault_rifle_burst);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_narcoleptic:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.narcoleptic);
+            case R.id.button_electrical_trap:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_electrical_trap);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_octomom:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.octomom);
+            case R.id.button_grenade:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_grenade);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_on_wet:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.on_wet);
+            case R.id.button_grenade_launcher:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_grenade_launcher);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_oriental:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.oriental_background);
+            case R.id.button_m16:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_m16);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_societys_lies:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.societies_lies);
+            case R.id.button_ocket_launcher:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_ocket_launcher);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_sup_mello:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.sup_mello);
+            case R.id.button_pickaxe_attack:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_pickaxe_attack);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_taxes:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.taxes);
+            case R.id.button_picking_guns:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_picking_guns);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_vacuum:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.vacuum);
+            case R.id.button_pistol:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_pistol);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_vertical:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.vert_horiz_mull);
+            case R.id.button_pumpkin_rocket_launcher:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_pumpkin_rocket_launcher);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_john_wayne:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.john_wayne);
+            case R.id.button_scar:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_scar);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_arabic:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.arabic);
+            case R.id.button_shotgun:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_shotgun);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_l_ron_hubbard:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.l_ron_hubbard);
+            case R.id.button_silenced_smg:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_silenced_smg);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_pizza_ball:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.pizza_ball);
+            case R.id.button_smoke_grenade:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_smoke_grenade);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_schindlers_list:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.schindlers_list);
+            case R.id.button_sniper_shot:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_sniper_shot);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_well_be_right_back:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.well_be_right_back);
+            case R.id.button_switch_weapons:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.w_switch_weapons);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_yahboobay_short:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.yahboobay_short);
+
+                //Dance
+            case R.id.button_best_mates:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_best_mates);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_yahboobay_long:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.yahboobay_long);
+            case R.id.button_dance_moves:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_dance_moves);
                 mediaPlayer.start();
                 break;
-            case com.soundboards.app.soundboard.R.id.button_yes_guy:
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), com.soundboards.app.soundboard.R.raw.yes_guy);
+            case R.id.button_dance_move_2:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_dance_move_2);
                 mediaPlayer.start();
                 break;
+            case R.id.button_dance_move_3:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_dance_moves_3);
+                mediaPlayer.start();
+                break;
+            case R.id.button_electro_shuffle:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_electro_shuffle);
+                mediaPlayer.start();
+                break;
+            case R.id.button_flapper:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_flapper);
+                mediaPlayer.start();
+                break;
+            case R.id.button_floss:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_floss);
+                mediaPlayer.start();
+                break;
+            case R.id.button_fresh:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_fresh);
+                mediaPlayer.start();
+                break;
+            case R.id.button_ride_the_pony:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_ride_the_pony);
+                mediaPlayer.start();
+                break;
+            case R.id.button_slow_clap:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_slow_clap);
+                mediaPlayer.start();
+                break;
+            case R.id.button_take_the_l:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_take_the_l);
+                mediaPlayer.start();
+                break;
+            case R.id.button_the_robot:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_the_robot);
+                mediaPlayer.start();
+                break;
+            case R.id.button_the_worm:
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.d_the_worm);
+                mediaPlayer.start();
+                break;
+
             case com.soundboards.app.soundboard.R.id.randomSoundButton:
                 int max = all_sounds.length;
                 int random = new Random().nextInt(max);

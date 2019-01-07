@@ -1,3 +1,3 @@
-# eric-andre-soundboard
-Play all your favorite Eric Andre quotes in an Android application
+# Fortnite SoundBoard
+Play all your Fortnite Sounds for Android
 

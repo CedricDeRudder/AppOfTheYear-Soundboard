@@ -16,7 +16,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_lsd"
+                android:id="@+id/button_bouncing_on_tires"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -24,12 +24,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_lsd"
+                android:text="@string/string_bouncing_on_tires"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_bird_up"
+                android:id="@+id/button_bus"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -37,7 +37,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_bird_up"
+                android:text="@string/string_bus"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -49,7 +49,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_cherokee_chicks"
+                android:id="@+id/button_chest_opened"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -57,12 +57,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_cherokee_chicks"
+                android:text="@string/string_chest_opened"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_legalize_ranch"
+                android:id="@+id/button_chest_unopened"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -70,7 +70,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_legalize_ranch"
+                android:text="@string/string_chest_unopened"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -82,7 +82,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_bases"
+                android:id="@+id/button_chug_jug"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -90,12 +90,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_bases"
+                android:text="@string/string_chug_jug"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_bill_cosby"
+                android:id="@+id/button_close_glider"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -103,7 +103,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_bill_cosby"
+                android:text="@string/string_close_glider"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -115,7 +115,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_cameras"
+                android:id="@+id/button_goal"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -123,12 +123,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_cameras"
+                android:text="@string/string_goal"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_hoky_poky"
+                android:id="@+id/button_incoming_storm"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -136,7 +136,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_hokey_pokey"
+                android:text="@string/string_incoming_storm"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -148,7 +148,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_octopus"
+                android:id="@+id/button_inside_the_storm"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -156,12 +156,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_octopus"
+                android:text="@string/string_inside_the_storm"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_benghazi"
+                android:id="@+id/button_jump_out_the_bus"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -169,7 +169,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_benghazi"
+                android:text="@string/string_jump_out_the_bus"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -181,7 +181,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_mein_kampf"
+                android:id="@+id/button_launchpad"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -189,12 +189,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_mein_kampf"
+                android:text="@string/string_launchpad"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_mom_and_dad"
+                android:id="@+id/button_open_glider"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -202,7 +202,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_mom_and_dad"
+                android:text="@string/string_open_glider"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -214,7 +214,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_monkeys"
+                android:id="@+id/button_out_of_the_storm"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -222,12 +222,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_monkeys"
+                android:text="@string/string_out_of_the_storm"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_narcoleptic"
+                android:id="@+id/button_theme_song"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -235,7 +235,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_narcolepsy"
+                android:text="@string/string_theme_song"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -247,7 +247,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_octomom"
+                android:id="@+id/button_assault_rifle_burst"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -255,12 +255,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_octomom"
+                android:text="@string/string_assault_rifle_burst"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_on_wet"
+                android:id="@+id/button_electrical_trap"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -268,7 +268,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_on_wet"
+                android:text="@string/string_electrical_trap"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -280,7 +280,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_oriental"
+                android:id="@+id/button_grenade"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -288,12 +288,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_oriental"
+                android:text="@string/string_grenade"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_societys_lies"
+                android:id="@+id/button_grenade_launcher"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -301,7 +301,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_societys_lies"
+                android:text="@string/string_grenade_launcher"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -313,7 +313,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_sup_mello"
+                android:id="@+id/button_m16"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -321,12 +321,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_sup_mello"
+                android:text="@string/string_m16"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_taxes"
+                android:id="@+id/button_ocket_launcher"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -334,7 +334,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_taxes"
+                android:text="@string/string_ocket_launcher"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -346,7 +346,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_vacuum"
+                android:id="@+id/button_pickaxe_attack"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -354,12 +354,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_vacuum"
+                android:text="@string/string_pickaxe_attack"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_vertical"
+                android:id="@+id/button_picking_guns"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -367,7 +367,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_vertical"
+                android:text="@string/string_picking_guns"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -379,7 +379,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_ranch_it_up"
+                android:id="@+id/button_pistol"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -387,12 +387,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_ranch_it_up"
+                android:text="@string/string_pistol"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_john_wayne"
+                android:id="@+id/button_pumpkin_rocket_launcher"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -400,7 +400,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_john_wayne"
+                android:text="@string/string_pumpkin_rocket_launcher"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -412,7 +412,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_arabic"
+                android:id="@+id/button_scar"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -420,12 +420,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_arabic"
+                android:text="@string/string_scar"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_pizza_ball"
+                android:id="@+id/button_shotgun"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -433,7 +433,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_pizza_ball"
+                android:text="@string/string_shotgun"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -445,7 +445,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_schindlers_list"
+                android:id="@+id/button_silenced_smg"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -453,12 +453,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_schindlers_list"
+                android:text="@string/string_silenced_smg"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_well_be_right_back"
+                android:id="@+id/button_smoke_grenade"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -466,7 +466,7 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_well_be_right_back"
+                android:text="@string/string_smoke_grenade"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
@@ -478,7 +478,7 @@
             android:gravity="center_horizontal">
 
             <Button
-                android:id="@+id/button_yes_guy"
+                android:id="@+id/button_sniper_shot"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -486,12 +486,12 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_yes_guy"
+                android:text="@string/string_sniper_shot"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
             <Button
-                android:id="@+id/button_l_ron_hubbard"
+                android:id="@+id/button_switch_weapons"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_margin="6dp"
@@ -499,45 +499,11 @@
                 android:height="80dp"
                 android:background="@drawable/button_selector"
                 android:gravity="center"
-                android:text="@string/string_l_ron_hubbard"
+                android:text="@string/string_switch_weapons"
                 android:textColor="@android:color/white"
                 android:onClick="playSoundEffect"/>
 
         </TableRow>
-
-        <TableRow
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:gravity="center_horizontal">
-
-            <Button
-                android:id="@+id/button_yahboobay_short"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_margin="6dp"
-                android:layout_weight="1"
-                android:height="80dp"
-                android:background="@drawable/button_selector"
-                android:gravity="center"
-                android:text="@string/string_yahboobay_short"
-                android:textColor="@android:color/white"
-                android:onClick="playSoundEffect"/>
-
-            <Button
-                android:id="@+id/button_yahboobay_long"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_margin="6dp"
-                android:layout_weight="1"
-                android:height="80dp"
-                android:background="@drawable/button_selector"
-                android:gravity="center"
-                android:text="@string/string_yahboobay_long"
-                android:textColor="@android:color/white"
-                android:onClick="playSoundEffect"/>
-
-        </TableRow>
-
 
         <Space
             android:layout_width="1dp"
