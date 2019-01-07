@@ -13,7 +13,8 @@ import java.util.Random;
 
 import com.google.android.gms.ads.AdView;
 
-public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener, Tab2.OnFragmentInteractionListener, Tab3.OnFragmentInteractionListener, Tab4.OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentInteractionListener, Tab2.OnFragmentInteractionListener, Tab3.OnFragmentInteractionListener
+{
 
     private MediaPlayer mediaPlayer = null;
     private AdView mAdView;
@@ -76,10 +77,9 @@ super.onCreate(savedInstanceState);
         setContentView(com.soundboards.app.soundboard.R.layout.activity_main);
 
         TabLayout tabLayout = (TabLayout)findViewById(com.soundboards.app.soundboard.R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Positief"));
-        tabLayout.addTab(tabLayout.newTab().setText("Dance"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.Tab1_Gameplay));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.Tab2_Dance));
         tabLayout.addTab(tabLayout.newTab().setIcon(com.soundboards.app.soundboard.R.drawable.ic_settings_white_24dp));
-        tabLayout.addTab(tabLayout.newTab().setText("New"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 

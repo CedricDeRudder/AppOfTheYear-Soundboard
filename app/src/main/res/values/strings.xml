@@ -1,12 +1,14 @@
 <resources>
     <string name="app_name">Fortnite SoundBoard</string>
 
-    <string name="string_share">Deel</string>
-    <string name="string_suggest_sound">Voorstel Sound</string>
-    <string name="string_thanks">bedankt!</string>
+    <string name="Tab1_Gameplay">Gameplay</string>
+    <string name="Tab2_Dance">Dance</string>
+
+    <string name="string_share">Share</string>
+    <string name="string_suggest_sound">Suggest Sound</string>
+    <string name="string_thanks">Thanks for trying our app!</string>
     <string name="string_random">Random sound</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="string_danke">Danke</string>
     <string name="string_the_worm">The worm</string>
@@ -34,22 +36,22 @@
     <string name="string_jump_out_the_bus">Jump out the bus</string>
     <string name="string_launchpad">Launchpad</string>
     <string name="string_open_glider">Open glider</string>
-    <string name="string_out_of_the_storm">out of the storm</string>
-    <string name="string_theme_song">theme song</string>
-    <string name="string_assault_rifle_burst">assault rifle burst</string>
-    <string name="string_electrical_trap">electrical trap</string>
-    <string name="string_grenade">grenade</string>
-    <string name="string_grenade_launcher">grenade launcher</string>
-    <string name="string_m16">m16</string>
-    <string name="string_ocket_launcher">Rocket Launcher</string>
-    <string name="string_pickaxe_attack">pickaxe attack</string>
-    <string name="string_picking_guns">picking guns</string>
-    <string name="string_pistol">pistol</string>
-    <string name="string_pumpkin_rocket_launcher">pumpkin rocket launcher</string>
-    <string name="string_scar">scar</string>
-    <string name="string_shotgun">shotgun</string>
-    <string name="string_silenced_smg">silenced smg</string>
-    <string name="string_smoke_grenade">smoke grenade</string>
-    <string name="string_sniper_shot">sniper shot</string>
-    <string name="string_switch_weapons">switch weapons</string>
+    <string name="string_out_of_the_storm">Out of the storm</string>
+    <string name="string_theme_song">Theme song</string>
+    <string name="string_assault_rifle_burst">Assault rifle burst</string>
+    <string name="string_electrical_trap">Electrical trap</string>
+    <string name="string_grenade">Grenade</string>
+    <string name="string_grenade_launcher">Grenade launcher</string>
+    <string name="string_m16">M16</string>
+    <string name="string_rocket_launcher">Rocket Launcher</string>
+    <string name="string_pickaxe_attack">Pickaxe attack</string>
+    <string name="string_picking_guns">Picking guns</string>
+    <string name="string_pistol">Pistol</string>
+    <string name="string_pumpkin_rocket_launcher">Pumpkin rocket launcher</string>
+    <string name="string_scar">Scar</string>
+    <string name="string_shotgun">Shotgun</string>
+    <string name="string_silenced_smg">Silenced smg</string>
+    <string name="string_smoke_grenade">Smoke grenade</string>
+    <string name="string_sniper_shot">Sniper shot</string>
+    <string name="string_switch_weapons">Switch weapons</string>
 </resources>

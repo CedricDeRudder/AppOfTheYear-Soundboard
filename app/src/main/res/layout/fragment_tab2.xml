@@ -72,14 +72,5 @@
             android:textColor="@android:color/white"
             android:onClick="playSoundEffect"/>
 
-        <!--<Space
-            android:layout_width="1dp"
-            android:layout_height="10dp"/>
-
-        <SeekBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/volumeBar" />-->
-
     </LinearLayout>
 </ScrollView>
